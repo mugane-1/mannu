@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery - Kirimari Empowerment Centre | Our Community & Achievements</title>
+  <meta name="description" content="Explore our gallery showcasing training sessions, student achievements, community events, and the impact of Kirimari Empowerment Centre in Embu County, Kenya.">
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/clean.css">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/logod.png">
+  
+  <!-- Scripts -->
+  <script src="js/images.js" defer></script>
+</head>
+<body>
+  <!-- ==================== NAVIGATION ==================== -->
+  <nav class="nav" id="navbar">
+    <div class="container nav__inner">
+      <a href="index.html" class="nav__logo">
+        <img src="images/logod.png" alt="Kirimari Ward ICT Centre" class="nav__logo-image">
+        <div class="nav__logo-text">
+          Kirimari
+          <span>Empowerment Centre</span>
+        </div>
+      </a>
+      
+      <div class="nav__links">
+        <a href="index.html" class="nav__link">Home</a>
+        <a href="about.html" class="nav__link">About</a>
+        <a href="programs.html" class="nav__link">Programs</a>
+        <a href="enrollment.html" class="nav__link">Enrollment</a>
+        <a href="gallery.html" class="nav__link active">Gallery</a>
+        <a href="contact.html" class="nav__link">Contact</a>
+      </div>
+      
+      <a href="enrollment.html" class="btn btn-primary btn-sm nav__cta">Enroll Now</a>
+      
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </nav>
+  
+  <!-- Mobile Navigation -->
+  <div class="nav__mobile" id="mobileNav">
+    <a href="index.html" class="nav__mobile-link">Home</a>
+    <a href="about.html" class="nav__mobile-link">About Us</a>
+    <a href="programs.html" class="nav__mobile-link">Programs</a>
+    <a href="enrollment.html" class="nav__mobile-link">Enrollment</a>
+    <a href="gallery.html" class="nav__mobile-link">Gallery</a>
+    <a href="contact.html" class="nav__mobile-link">Contact</a>
+    <div class="nav__mobile-cta">
+      <a href="enrollment.html" class="btn btn-primary w-full">Enroll Now</a>
+    </div>
+  </div>
+
+  <!-- ==================== PAGE HEADER ==================== -->
+  <section class="page-header page-header--image" style="background-image: url('https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=1920&q=80');">
+    <div class="page-header__pattern"></div>
+    <div class="container page-header__content">
+      <div class="page-header__breadcrumb">
+        <a href="index.html">Home</a>
+        <span class="separator">/</span>
+        <span>Gallery</span>
+      </div>
+      <h1 class="page-header__title">Our <span class="text-gold">Gallery</span></h1>
+      <p class="page-header__description">
+        Explore moments from our training sessions, events, and the vibrant 
+        community at Kirimari Empowerment Centre.
+      </p>
+    </div>
+  </section>
+
+  <!-- ==================== GALLERY STATS ==================== -->
+  <section class="section section--white">
+    <div class="container">
+      <div class="stats reveal" style="margin-bottom: var(--space-3xl);">
+        <div class="stat" style="background: var(--gray-100); border: 1px solid var(--gray-200); border-radius: var(--radius-xl); padding: var(--space-2xl); color: var(--navy);">
+          <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=100&h=100&fit=crop&q=80" alt="Students" class="stat__icon" style="width: 48px; height: 48px; border-radius: 50%; object-fit: cover;">
+          <div class="stat__number" data-count="150" style="color: var(--navy);">0</div>
+          <div class="stat__label" style="color: var(--gray-600);">Students Trained</div>
+        </div>
+        <div class="stat" style="background: var(--gray-100); border: 1px solid var(--gray-200); border-radius: var(--radius-xl); padding: var(--space-2xl); color: var(--navy);">
+          <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=100&h=100&fit=crop&q=80" alt="Cohorts" class="stat__icon" style="width: 48px; height: 48px; border-radius: 50%; object-fit: cover;">
+          <div class="stat__number" data-count="8" style="color: var(--navy);">0</div>
+          <div class="stat__label" style="color: var(--gray-600);">Cohorts Completed</div>
+        </div>
+        <div class="stat" style="background: var(--gray-100); border: 1px solid var(--gray-200); border-radius: var(--radius-xl); padding: var(--space-2xl); color: var(--navy);">
+          <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=100&h=100&fit=crop&q=80" alt="Trainers" class="stat__icon" style="width: 48px; height: 48px; border-radius: 50%; object-fit: cover;">
+          <div class="stat__number" data-count="3" style="color: var(--navy);">0</div>
+          <div class="stat__label" style="color: var(--gray-600);">Expert Trainers</div>
+        </div>
+        <div class="stat" style="background: var(--gray-100); border: 1px solid var(--gray-200); border-radius: var(--radius-xl); padding: var(--space-2xl); color: var(--navy);">
+          <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=100&h=100&fit=crop&q=80" alt="Partners" class="stat__icon" style="width: 48px; height: 48px; border-radius: 50%; object-fit: cover;">
+          <div class="stat__number" data-count="3" style="color: var(--navy);">0</div>
+          <div class="stat__label" style="color: var(--gray-600);">Partners</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== GALLERY GRID ==================== -->
+  <section class="section section--cream" id="gallery">
+    <div class="container">
+      <div class="section-subtitle reveal">Training Moments</div>
+      <h2 class="section-title text-center reveal">Life at <span class="text-gold">Kirimari Centre</span></h2>
+      <p class="section-description text-center reveal">
+        From classroom sessions to graduation celebrations, witness the journey of 
+        transformation at our empowerment centre.
+      </p>
+      
+      <!-- Gallery Filter -->
+      <div class="reveal" style="display: flex; justify-content: center; gap: var(--space-md); margin-bottom: var(--space-2xl); flex-wrap: wrap;">
+        <button class="btn btn-sm gallery-filter active" data-filter="all">All</button>
+        <button class="btn btn-sm gallery-filter" data-filter="ict">ICT Training</button>
+        <button class="btn btn-sm gallery-filter" data-filter="nail">Nail Tech</button>
+        <button class="btn btn-sm gallery-filter" data-filter="events">Events</button>
+        <button class="btn btn-sm gallery-filter" data-filter="community">Community</button>
+      </div>
+      
+      <!-- Modern Gallery Grid -->
+      <div class="modern-gallery reveal">
+        <!-- ICT Training Images -->
+        <div class="gallery-card" data-category="ict">
+          <div class="gallery-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=600&h=400&fit=crop&q=80" alt="ICT Training Session">
+            <div class="gallery-card__overlay">
+              <h4>ICT Training Session</h4>
+              <p>Students engaged in hands-on computer training during our Cohort 5 ICT program. Learning Microsoft Office and digital literacy fundamentals.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="gallery-card" data-category="nail">
+          <div class="gallery-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=600&h=400&fit=crop&q=80" alt="Nail Art Workshop">
+            <div class="gallery-card__overlay">
+              <h4>Nail Art Workshop</h4>
+              <p>Creative nail art designs being practiced during our vocational training sessions. Students learn professional techniques from expert trainers.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="gallery-card" data-category="events">
+          <div class="gallery-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?w=600&h=400&fit=crop&q=80" alt="Graduation Ceremony">
+            <div class="gallery-card__overlay">
+              <h4>Graduation Ceremony</h4>
+              <p>Our graduates celebrating their achievements after completing the ICT & Digital Skills program. A proud moment for students and trainers alike.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="gallery-card" data-category="community">
+          <div class="gallery-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=600&h=400&fit=crop&q=80" alt="Community Engagement">
+            <div class="gallery-card__overlay">
+              <h4>Community Engagement</h4>
+              <p>Building connections within Kirimari Ward. Our centre serves as a hub for youth empowerment and community development activities.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="gallery-card" data-category="ict">
+          <div class="gallery-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=600&h=400&fit=crop&q=80" alt="Digital Literacy Class">
+            <div class="gallery-card__overlay">
+              <h4>Digital Literacy Class</h4>
+              <p>Students learning essential computer skills including typing, internet navigation, and basic software applications for the modern workplace.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="gallery-card" data-category="nail">
+          <div class="gallery-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?w=600&h=400&fit=crop&q=80" alt="Manicure Practice">
+            <div class="gallery-card__overlay">
+              <h4>Manicure Practice Session</h4>
+              <p>Hands-on practice in professional manicure techniques including nail shaping, cuticle care, and polish application.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="gallery-card" data-category="events">
+          <div class="gallery-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=600&h=400&fit=crop&q=80" alt="Orientation Day">
+            <div class="gallery-card__overlay">
+              <h4>Orientation Day</h4>
+              <p>New students being welcomed and oriented during the start of a fresh cohort. Introduction to centre facilities and program expectations.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="gallery-card" data-category="community">
+          <div class="gallery-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=600&h=400&fit=crop&q=80" alt="Student Testimonials">
+            <div class="gallery-card__overlay">
+              <h4>Student Testimonials</h4>
+              <p>Graduates sharing their transformation stories and how the skills gained at Kirimari Centre changed their lives and career prospects.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="gallery-card" data-category="ict">
+          <div class="gallery-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop&q=80" alt="Computer Lab Session">
+            <div class="gallery-card__overlay">
+              <h4>Computer Lab Session</h4>
+              <p>Our fully-equipped computer lab where students practice typing, spreadsheet management, and online job applications.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="gallery-card" data-category="nail">
+          <div class="gallery-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1632345031435-8727f6897d53?w=600&h=400&fit=crop&q=80" alt="Nail Art Designs">
+            <div class="gallery-card__overlay">
+              <h4>Nail Art Designs</h4>
+              <p>Creative nail art patterns and decorations created by our talented students. Showcasing the artistic skills developed during training.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="gallery-card" data-category="events">
+          <div class="gallery-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=600&h=400&fit=crop&q=80" alt="Certification Day">
+            <div class="gallery-card__overlay">
+              <h4>Certification Day</h4>
+              <p>Students receiving their certificates of completion. A milestone moment marking their journey from beginners to skilled practitioners.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="gallery-card" data-category="community">
+          <div class="gallery-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1531498860502-7c67cf02f657?w=600&h=400&fit=crop&q=80" alt="Achievement Celebration">
+            <div class="gallery-card__overlay">
+              <h4>Achievement Celebration</h4>
+              <p>Celebrating milestones and achievements together. Building a supportive community of learners and future entrepreneurs.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="gallery-card" data-category="ict">
+          <div class="gallery-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=600&h=400&fit=crop&q=80" alt="Online Jobs Training">
+            <div class="gallery-card__overlay">
+              <h4>Online Jobs Training</h4>
+              <p>Learning to navigate online job platforms through the Ajira Kenya Program. Preparing students for digital freelancing opportunities.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="gallery-card" data-category="nail">
+          <div class="gallery-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1600431521340-491eca880813?w=600&h=400&fit=crop&q=80" alt="Pedicure Services">
+            <div class="gallery-card__overlay">
+              <h4>Pedicure Services Training</h4>
+              <p>Professional pedicure techniques including foot care, massage, and nail treatment. Students practice on real clients under supervision.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="gallery-card" data-category="events">
+          <div class="gallery-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop&q=80" alt="Training Sessions">
+            <div class="gallery-card__overlay">
+              <h4>Group Training Sessions</h4>
+              <p>Interactive group learning sessions where students collaborate, share ideas, and learn from each other's experiences.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="gallery-card" data-category="community">
+          <div class="gallery-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1544531586-fde5298cdd40?w=600&h=400&fit=crop&q=80" alt="Youth Empowerment">
+            <div class="gallery-card__overlay">
+              <h4>Youth Empowerment</h4>
+              <p>Empowering the next generation with practical skills that lead to employment, entrepreneurship, and self-reliance in the digital age.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="gallery-card" data-category="ict">
+          <div class="gallery-card__img-wrap">
+            <img src="https://images.unsplash.com/photo-1531498860502-7c67cf02f657?w=600&h=400&fit=crop&q=80" alt="Excel Training">
+            <div class="gallery-card__overlay">
+              <h4>Excel Training</h4>
+              <p>Mastering Microsoft Excel for data management, calculations, and professional reporting. A key skill for office employment.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== HIGHLIGHT STORIES ==================== -->
+  <section class="section section--white">
+    <div class="container">
+      <div class="section-subtitle reveal">Success Stories</div>
+      <h2 class="section-title text-center reveal">Graduate <span class="text-gold">Highlights</span></h2>
+      <p class="section-description text-center reveal">
+        Every graduate has a story of transformation. Here are some of our 
+        most inspiring success stories.
+      </p>
+      
+      <div class="grid grid-3 stagger-children">
+        <div class="card card--testimonial" style="margin: 0;">
+          <p class="card--testimonial__text">
+            "I came to Kirimari Centre knowing nothing about computers. After the ICT program, 
+            I can now type, use Excel, and most importantly, I've started doing online transcription 
+            jobs. The Ajira Kenya link opened a whole new world for me."
+          </p>
+          <div class="card--testimonial__author">
+            <img src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?w=100&h=100&fit=crop&q=80" alt="Sarah M." class="card--testimonial__avatar" style="object-fit: cover;">
+            <div class="card--testimonial__info">
+              <h5>Sarah M.</h5>
+              <p>ICT Graduate, Cohort 4</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card card--testimonial" style="margin: 0;">
+          <p class="card--testimonial__text">
+            "The nail technology program gave me everything I needed to start my own business. 
+            Within a month of graduating, I opened a small nail salon at home. The business 
+            mentorship really made the difference."
+          </p>
+          <div class="card--testimonial__author">
+            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop&q=80" alt="Grace W." class="card--testimonial__avatar" style="object-fit: cover;">
+            <div class="card--testimonial__info">
+              <h5>Grace W.</h5>
+              <p>Nail Tech Graduate</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card card--testimonial" style="margin: 0;">
+          <p class="card--testimonial__text">
+            "At KES 1,500, I thought the training couldn't be that good. I was wrong! 
+            The quality of training, the equipment, and the trainers' dedication exceeded 
+            my expectations. Best investment I've ever made."
+          </p>
+          <div class="card--testimonial__author">
+            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&q=80" alt="John K." class="card--testimonial__avatar" style="object-fit: cover;">
+            <div class="card--testimonial__info">
+              <h5>John K.</h5>
+              <p>ICT Graduate, Cohort 5</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== COHORT CELEBRATIONS ==================== -->
+  <section class="section section--navy">
+    <div class="container">
+      <div class="section-subtitle reveal">Cohort Achievements</div>
+      <h2 class="section-title text-center reveal">Celebrating Our <span class="text-gold">Graduates</span></h2>
+      <p class="section-description text-center reveal" style="color: rgba(255,255,255,0.7);">
+        Each cohort represents a new group of empowered individuals ready to 
+        make their mark in the world. Here's our graduation history.
+      </p>
+      
+      <div class="grid grid-4 stagger-children">
+        <div style="text-align: center; padding: var(--space-xl); background: rgba(255,255,255,0.05); border-radius: var(--radius-xl); border: 1px solid rgba(255,255,255,0.1);">
+          <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=100&h=100&fit=crop&q=80" alt="ICT Cohorts" style="width: 64px; height: 64px; border-radius: var(--radius-xl); object-fit: cover; margin: 0 auto var(--space-md);">
+          <h4 style="color: var(--gold); font-family: var(--font-heading); font-size: 2rem; margin-bottom: var(--space-xs);">6</h4>
+          <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; margin: 0;">ICT Cohorts</p>
+        </div>
+        <div style="text-align: center; padding: var(--space-xl); background: rgba(255,255,255,0.05); border-radius: var(--radius-xl); border: 1px solid rgba(255,255,255,0.1);">
+          <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=100&h=100&fit=crop&q=80" alt="Nail Tech Cohorts" style="width: 64px; height: 64px; border-radius: var(--radius-xl); object-fit: cover; margin: 0 auto var(--space-md);">
+          <h4 style="color: var(--gold); font-family: var(--font-heading); font-size: 2rem; margin-bottom: var(--space-xs);">2</h4>
+          <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; margin: 0;">Nail Tech Cohorts</p>
+        </div>
+        <div style="text-align: center; padding: var(--space-xl); background: rgba(255,255,255,0.05); border-radius: var(--radius-xl); border: 1px solid rgba(255,255,255,0.1);">
+          <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=100&h=100&fit=crop&q=80" alt="Graduates" style="width: 64px; height: 64px; border-radius: var(--radius-xl); object-fit: cover; margin: 0 auto var(--space-md);">
+          <h4 style="color: var(--gold); font-family: var(--font-heading); font-size: 2rem; margin-bottom: var(--space-xs);">150+</h4>
+          <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; margin: 0;">Graduates</p>
+        </div>
+        <div style="text-align: center; padding: var(--space-xl); background: rgba(255,255,255,0.05); border-radius: var(--radius-xl); border: 1px solid rgba(255,255,255,0.1);">
+          <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=100&h=100&fit=crop&q=80" alt="Certification" style="width: 64px; height: 64px; border-radius: var(--radius-xl); object-fit: cover; margin: 0 auto var(--space-md);">
+          <h4 style="color: var(--gold); font-family: var(--font-heading); font-size: 2rem; margin-bottom: var(--space-xs);">100%</h4>
+          <p style="color: rgba(255,255,255,0.7); font-size: 0.9rem; margin: 0;">Certification</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SOCIAL MEDIA SECTION ==================== -->
+  <section class="section section--cream">
+    <div class="container" style="max-width: 900px;">
+      <div class="section-subtitle reveal">Follow Us</div>
+      <h2 class="section-title text-center reveal">Connect on <span class="text-gold">Social Media</span></h2>
+      <p class="section-description text-center reveal">
+        Follow us on TikTok and other platforms to see our daily training sessions, 
+        student achievements, and community impact stories.
+      </p>
+      
+      <div class="card reveal" style="padding: var(--space-3xl); text-align: center;">
+        <img src="https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=100&h=100&fit=crop&q=80" alt="TikTok" style="width: 100px; height: 100px; border-radius: var(--radius-2xl); object-fit: cover; margin: 0 auto var(--space-xl); box-shadow: var(--shadow-lg);">
+        <h3 style="font-size: 1.5rem; margin-bottom: var(--space-md);">Follow @KirimariCentre on TikTok</h3>
+        <p style="color: var(--gray-600); max-width: 500px; margin: 0 auto var(--space-xl); font-size: 1rem;">
+          Watch our training videos, student testimonials, and community events. 
+          Join our growing community using <strong style="color: var(--navy);">#KaziBilaKelele</strong>
+        </p>
+        <div style="display: flex; gap: var(--space-md); justify-content: center; flex-wrap: wrap;">
+          <a href="#" class="btn btn-primary btn-lg">Follow on TikTok</a>
+          <a href="https://wa.me/254710751420" class="btn btn-secondary btn-lg">WhatsApp Us</a>
+        </div>
+        
+        <!-- Hashtags -->
+        <div style="margin-top: var(--space-2xl); padding-top: var(--space-2xl); border-top: 1px solid var(--gray-200);">
+          <h5 style="font-family: var(--font-body); margin-bottom: var(--space-lg); color: var(--navy);">Popular Hashtags</h5>
+          <div style="display: flex; gap: var(--space-sm); justify-content: center; flex-wrap: wrap;">
+            <span style="background: rgba(27,42,74,0.08); color: var(--navy); padding: var(--space-sm) var(--space-md); border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 500;">#KaziBilaKelele</span>
+            <span style="background: rgba(27,42,74,0.08); color: var(--navy); padding: var(--space-sm) var(--space-md); border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 500;">#KirimariEmpowerment</span>
+            <span style="background: rgba(27,42,74,0.08); color: var(--navy); padding: var(--space-sm) var(--space-md); border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 500;">#EmbuCounty</span>
+            <span style="background: rgba(27,42,74,0.08); color: var(--navy); padding: var(--space-sm) var(--space-md); border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 500;">#AjiraKenya</span>
+            <span style="background: rgba(27,42,74,0.08); color: var(--navy); padding: var(--space-sm) var(--space-md); border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 500;">#YouthEmpowerment</span>
+            <span style="background: rgba(27,42,74,0.08); color: var(--navy); padding: var(--space-sm) var(--space-md); border-radius: var(--radius-full); font-size: 0.85rem; font-weight: 500;">#DigitalSkills</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FACILITIES ==================== -->
+  <section class="section section--white">
+    <div class="container">
+      <div class="section-subtitle reveal">Our Spaces</div>
+      <h2 class="section-title text-center reveal">Our <span class="text-gold">Facilities</span></h2>
+      <p class="section-description text-center reveal">
+        We've invested in creating the right environment for effective learning.
+      </p>
+      
+      <div class="grid grid-4 stagger-children">
+        <div style="text-align: center; padding: var(--space-xl); background: var(--gray-100); border-radius: var(--radius-xl);">
+          <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=100&h=100&fit=crop&q=80" alt="Computer Lab" style="width: 80px; height: 80px; border-radius: var(--radius-2xl); object-fit: cover; margin: 0 auto var(--space-lg);">
+          <h5 style="font-family: var(--font-body); font-size: 1rem; margin-bottom: var(--space-sm);">Computer Lab</h5>
+          <p style="font-size: 0.85rem; color: var(--gray-600); margin: 0;">Equipped computers for practical ICT training</p>
+        </div>
+        <div style="text-align: center; padding: var(--space-xl); background: var(--gray-100); border-radius: var(--radius-xl);">
+          <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=100&h=100&fit=crop&q=80" alt="Internet Access" style="width: 80px; height: 80px; border-radius: var(--radius-2xl); object-fit: cover; margin: 0 auto var(--space-lg);">
+          <h5 style="font-family: var(--font-body); font-size: 1rem; margin-bottom: var(--space-sm);">Internet Access</h5>
+          <p style="font-size: 0.85rem; color: var(--gray-600); margin: 0;">Reliable internet for online learning</p>
+        </div>
+        <div style="text-align: center; padding: var(--space-xl); background: var(--gray-100); border-radius: var(--radius-xl);">
+          <img src="https://images.unsplash.com/photo-1604654894610-df63bc536371?w=100&h=100&fit=crop&q=80" alt="Nail Tech Workspace" style="width: 80px; height: 80px; border-radius: var(--radius-2xl); object-fit: cover; margin: 0 auto var(--space-lg);">
+          <h5 style="font-family: var(--font-body); font-size: 1rem; margin-bottom: var(--space-sm);">Nail Tech Workspace</h5>
+          <p style="font-size: 0.85rem; color: var(--gray-600); margin: 0;">Professional setup for nail training</p>
+        </div>
+        <div style="text-align: center; padding: var(--space-xl); background: var(--gray-100); border-radius: var(--radius-xl);">
+          <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=100&h=100&fit=crop&q=80" alt="Training Rooms" style="width: 80px; height: 80px; border-radius: var(--radius-2xl); object-fit: cover; margin: 0 auto var(--space-lg);">
+          <h5 style="font-family: var(--font-body); font-size: 1rem; margin-bottom: var(--space-sm);">Training Rooms</h5>
+          <p style="font-size: 0.85rem; color: var(--gray-600); margin: 0;">Comfortable learning spaces</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== CTA ==================== -->
+  <section class="section cta">
+    <div class="container">
+      <div class="cta__content reveal">
+        <div class="section-subtitle">Be Part of the Story</div>
+        <h2 class="cta__title">Your Transformation Starts Here</h2>
+        <p class="cta__text">
+          Join the next cohort and become part of the Kirimari success story. 
+          Your journey to empowerment begins with a single step.
+        </p>
+        <div class="cta__actions">
+          <a href="enrollment.html" class="btn btn-primary btn-lg">Enroll Now</a>
+          <a href="contact.html" class="btn btn-outline-white btn-lg">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <img src="images/logod.png" alt="Kirimari Empowerment Centre Logo" class="footer__logo-image">
+            <div class="footer__logo-text">
+              Kirimari
+              <span>Empowerment Centre</span>
+            </div>
+          </div>
+          <p class="footer__about">
+            A community-driven training hub in Kirimari Ward, Embu County, focused on 
+            equipping youth with practical skills in ICT and nail technology for 
+            employment, entrepreneurship, and digital income.
+          </p>
+          <div class="footer__social">
+            <a href="https://www.tiktok.com/@kirimari.ward.ict.centre" class="footer__social-link" aria-label="TikTok" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/></svg>
+            </a>
+            <a href="https://wa.me/254710751420" class="footer__social-link" aria-label="WhatsApp" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+            </a>
+            <a href="mailto:kirimariwardict@gmail.com" class="footer__social-link" aria-label="Email">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            </a>
+            <a href="https://maps.app.goo.gl/QMYKB9sozVrVdqf79" class="footer__social-link" aria-label="Location" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer__col">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">&#x2192; Home</a></li>
+            <li><a href="about.html">&#x2192; About Us</a></li>
+            <li><a href="programs.html">&#x2192; Programs</a></li>
+            <li><a href="enrollment.html">&#x2192; Enrollment</a></li>
+            <li><a href="gallery.html">&#x2192; Gallery</a></li>
+            <li><a href="contact.html">&#x2192; Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer__col">
+          <h4>Programs</h4>
+          <ul>
+            <li><a href="programs.html#ict">&#x2192; ICT & Digital Skills</a></li>
+            <li><a href="programs.html#nail-tech">&#x2192; Nail Technology</a></li>
+            <li><a href="programs.html#additional">&#x2192; Animation</a></li>
+            <li><a href="programs.html#additional">&#x2192; Web Design</a></li>
+            <li><a href="programs.html#additional">&#x2192; Digital Marketing</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer__col">
+          <h4>Contact Info</h4>
+          <ul>
+            <li><a href="tel:+254725642374">0725642374</a></li>
+            <li><a href="https://wa.me/254710751420">WhatsApp Us</a></li>
+            <li><a href="mailto:kirimariwardict@gmail.com">Email Us</a></li>
+            <li><a href="https://maps.app.goo.gl/QMYKB9sozVrVdqf79"><img src="https://images.unsplash.com/photo-1477959858617?w=100&h=100&fit=crop&q=80" alt="" style="width: 16px; height: 16px; border-radius: 3px; object-fit: cover; vertical-align: middle; margin-right: 4px;"> Next to Wells Fargo</a></li>
+            <li><a href="https://maps.app.goo.gl/QMYKB9sozVrVdqf79"><img src="https://images.unsplash.com/photo-1477959858617?w=100&h=100&fit=crop&q=80" alt="" style="width: 16px; height: 16px; border-radius: 3px; object-fit: cover; vertical-align: middle; margin-right: 4px;"> Near Urban Primary</a></li>
+          </ul>
+          <div style="margin-top: var(--space-lg);">
+            <h4 style="margin-bottom: var(--space-md);">Working Hours</h4>
+            <p style="color: rgba(255,255,255,0.6); font-size: 0.85rem; margin: 0;">
+              Monday - Friday<br>
+              8:00 AM - 4:00 PM
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer__bottom">
+        <p style="margin: 0; color: rgba(255,255,255,0.4); font-size: 0.85rem;">
+          &copy; 2026 Kirimari Empowerment Centre. All rights reserved.
+        </p>
+        <div class="footer__bottom-links">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-of-service.html">Terms of Service</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="js/main.js"></script>
+</body>
+</html>
